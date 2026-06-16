@@ -1,5 +1,5 @@
 function App() {
-  const name = "Birds";
+  const name = "Birds🐧";
   let num1 = 1000;
   let num2 = 100;
   let num = num1+num2;
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     
-      <h1 style={{color:"violet"}}>Page for {name}</h1>
+      <h1 style={{color:"violet"}}>{name}</h1>
       <div style = {{display:"flex"}}>
       <img style={{width:500}}
       src = "https://www.rd.com/wp-content/uploads/2018/03/emperor-penguins-sliding.jpg"
